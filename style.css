@@ -18,7 +18,7 @@ body{
     display: flex;
     width: 100%;
     background-color: red;
-    font-size: 20px;
+   
     align-items: center;
     padding: 0 20px;
   }
@@ -31,6 +31,18 @@ body{
     
   }
   header nav ul li a{
-    padding-left: 18px;
+    padding: 17px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: gold;
+    margin-left: 15px;
+    border-radius: 20px;
+  }
+  header nav ul li a:hover{
+    background-color: blue;
+  }
+  header span{
+    font-size: 30px;
+    font-weight: bolder;
   }
   
