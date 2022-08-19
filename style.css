@@ -8,4 +8,29 @@ body{
     --black: #0000;
     --white: #ffffff;
   }
+  header{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    
+  }
+  header nav{
+    display: flex;
+    width: 100%;
+    background-color: red;
+    font-size: 20px;
+    align-items: center;
+    padding: 0 20px;
+  }
+  header nav ul {
+    margin-left: auto;
+    margin-right: 50px;
+  }
+  header nav ul li{
+    display: inline-block;
+    
+  }
+  header nav ul li a{
+    padding-left: 18px;
+  }
   
