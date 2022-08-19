@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+:root {
+    --black: #0000;
+    --white: #ffffff;
+  }
+  
