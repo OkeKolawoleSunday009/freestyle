@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--blue);
+    height: 100vh;
+}
+:root {
+    --green: #00FF00;
+    --blue: #112666;
+  }
+  .container{
+    background-color: var(--blue);
+    box-shadow: 2px 2px 3px 3px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 25px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+  }
+  .container .images{
+    display: flex;
+    flex: 0.8
+  }
+  .container .content{
+    display: flex;
+    flex: 0.1;
+    flex-direction: column;
+
+  
+  }
+  .container > .images  > .image{
+    width: 100%;
+    height: auto;
+    background-image: url(./cardimg/image-equilibrium.jpg);
+    background-repeat: no-repeat;
+  }
+  span{
+    color: var(--green)
+  }
+  p{
+    font-size: 1vw;
+    color: rgb(179, 164, 164);
+  }
+  .container .content .context{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+    
+  }
+  .container .content .context .textcontext{
+    margin-top: 12px;
+    }
+  .context2{
+    margin-top: 10px;
+  }
+  .context2 img{
+    width: 60px;
+    margin-right: 10px;
+    
+  }
+  .context2{
+    display: flex;
+    align-items: center;
+   
+  }
+  .context2 span{
+   color: white;
+   
+  }
+  h1{
+    color: white;
+  }
+  @media screen and (max-width: 800px) {
+    .container{
+      padding: 20px;
+
+      width: 45%;
+      
+      
+    }
+    h1 {
+      font-size: 15px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    h2{
+      font-size: 13px;
+    }
+    p{
+      font-size: 8px
+    }
+    .context2 img{
+      width: 10vw;
+      margin-right: 7px;
+      
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    h1 {
+      font-size: 17px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    h2{
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .container{
+      padding: 15px;
+
+      width: 45%;
+      
+      
+    }
+    h1{
+      font-size: 14px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    h2{
+      font-size: 10px;
+    }
+  }
